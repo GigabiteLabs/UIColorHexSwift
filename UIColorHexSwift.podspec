@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name = "UIColor_Hex_Swift"
+  s.name = "UIColorHexSwift"
   s.version = "5.1.9"
   s.summary = "Convenience method for creating autoreleased color using RGBA hex string."
   s.homepage = "https://github.com/yeahdongcn/UIColor-Hex-Swift"
@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.tvos.deployment_target = "9.0"
   s.watchos.deployment_target = "2.1"
   s.osx.deployment_target = "10.9"
-  s.source = { :git => "https://github.com/yeahdongcn/UIColor-Hex-Swift.git", :tag => "#{s.version}" }
+  s.source = { :git => "https://github.com/gigabitelabs/UIColor-Hex-Swift.git", :tag => "#{s.version}" }
   s.source_files = "HEXColor/*.{h,swift}"
   s.ios.frameworks = ["UIKit"]
   s.osx.frameworks = ["Cocoa"]
